@@ -1,5 +1,6 @@
 📝 Fatma's To-Do List
 A beautiful and functional to-do list application built with HTML, CSS, and JavaScript.
+
 📌 Description
 Fatma's List is a simple yet elegant task management application that helps you stay organized and productive. Track your daily tasks, mark them as complete, and filter them based on their status.
 ✨ Features
