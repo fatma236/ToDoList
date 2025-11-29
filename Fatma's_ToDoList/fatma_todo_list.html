@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <alink rel="stylesheet" href="./static/css/style.css">
+    <title>Fatma's To-Do List</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Fatma's List</h1>
+        <p class="subtitle">Stay organized, stay productive!</p>
+
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <ul id="taskList"></ul>
+
+        <div class="stats">
+            <span id="totalTasks">0 tasks</span> | 
+            <span id="completedTasks">0 completed</span>
+        </div>
+    </div>
+
+    <script src="./static/js/script.js"></script>
+</body>
+</html>
